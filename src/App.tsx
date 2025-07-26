@@ -104,14 +104,6 @@ const Landing = () => {
     }
   };
 
-  const floatingAnimation = {
-    y: [0, -10, 0],
-    transition: {
-      duration: 3,
-      repeat: Infinity,
-      ease: "easeInOut" as const
-    }
-  };
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
