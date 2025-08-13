@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="48" fill="url(#g)"/>
+  <!-- F + growth arrow -->
+  <g fill="#FFFFFF">
+    <!-- Vertical bar -->
+    <rect x="84" y="58" width="28" height="140" rx="6"/>
+    <!-- Top arm -->
+    <rect x="112" y="58" width="80" height="28" rx="6"/>
+    <!-- Middle arm -->
+    <rect x="112" y="120" width="56" height="28" rx="6"/>
+    <!-- Arrow tip at the end of top arm -->
+    <path d="M192 58 L224 72 L192 86 Z"/>
+  </g>
+</svg>
